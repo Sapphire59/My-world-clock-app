@@ -1,12 +1,12 @@
 body {
-  background-color: #f2f2f2;
+  background-color: #efddb2;
 }
 
 h1 {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 40px;
-  color: #5b446a;
+  color: #a21232;
 }
 
 .container {
@@ -49,26 +49,29 @@ small {
 }
 
 .date {
-  color: #5b446a;
+  color: #20615b;
 }
+
 select {
   display: block;
   width: 100%;
   padding: 10px;
   border-radius: 4px;
-  font-size: 17px;
+  font-size: 19px;
   text-shadow: 20px;
+  color: #1a1831;
 }
 
 h2 {
   margin: 0 0 10px;
 }
 a {
-  color: black;
+  color: #a21232;
 }
 
 footer {
   text-align: center;
   font-size: 18px;
-  color: #906387;
+  color: #1a1831;
+  margin-top: -40px;
 }
