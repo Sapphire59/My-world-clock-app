@@ -25,16 +25,17 @@ h1 {
   margin: 13px 0;
   padding: 25px;
   border-bottom: 1px dashed gainsboro;
-  font-size: 15px;
 }
 .city:last-child {
   border: none;
 }
 .first {
   margin-left: -22px;
+  font-size: 16px;
 }
 .second {
   margin-left: -22px;
+  font-size: 16px;
 }
 .time {
   margin-right: -360px;
