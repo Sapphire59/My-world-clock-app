@@ -16,6 +16,16 @@ function updateTime() {
   parisTime = moment().tz("Europe/Paris");
   parisDateElement.innerHTML = parisTime.format("MMMM Do, YYYY");
   parisTimeElement.innerHTML = parisTime.format("h:mm:ss [<small>]A[</small>]");
+
+  let sydneyElement = document.querySelector("#sydney");
+  let sydneyDateElement = sydneyElement.querySelector(".date");
+  sydneyDateElement.innerHTML = "August 30th, 2024";
+  let sydneyTimeElement = sydneyElement.querySelector(".time");
+  sydneyTime = moment().tz("Australia/Sydney");
+  sydneyDateElement.innerHTML = sydneyTime.format("MMMM Do, YYYY");
+  sydneyTimeElement.innerHTML = sydneyTime.format(
+    "h:mm:ss [<small>]A[</small>]"
+  );
 }
 
 function updateCity(event) {

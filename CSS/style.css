@@ -15,7 +15,8 @@ h1 {
   background-color: white;
   padding: 40px;
   box-shadow: 17px 1px 27px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
+  border-radius: 15px;
+  border: 4px solid#dee1ec;
 }
 
 .city {
@@ -35,6 +36,12 @@ h1 {
 }
 .second {
   margin-left: -22px;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.third {
+  margin-left: -20px;
   font-size: 17px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
