@@ -1,11 +1,11 @@
 function updateTime() {
-  let losAngelesElement = document.querySelector("#los-angeles");
-  let losAngelesDateElement = losAngelesElement.querySelector(".date");
-  losAngelesDateElement.innerHTML = "August 30th, 2024";
-  let losAngelesTimeElement = losAngelesElement.querySelector(".time");
-  losAngelesTime = moment().tz("America/Los_Angeles");
-  losAngelesDateElement.innerHTML = losAngelesTime.format("MMMM Do, YYYY");
-  losAngelesTimeElement.innerHTML = losAngelesTime.format(
+  let alaskaElement = document.querySelector("#alaska");
+  let alaskaDateElement = alaskaElement.querySelector(".date");
+  alaskaDateElement.innerHTML = "August 30th, 2024";
+  let alaskaTimeElement = alaskaElement.querySelector(".time");
+  alaskaTime = moment().tz("US/Alaska");
+  alaskaDateElement.innerHTML = alaskaTime.format("MMMM Do, YYYY");
+  alaskaTimeElement.innerHTML = alaskaTime.format(
     "h:mm:ss [<small>]A[</small>]"
   );
 
